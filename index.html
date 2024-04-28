@@ -5,12 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adnan Khan Portfolio</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; }
-        header, footer { text-align: center; margin: 20px 0; }
-        .section { margin-top: 40px; }
-        .subsection { margin-left: 20px; }
-        a { color: #00F; }
-        h1, h2 { color: #333; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0056b3;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header a {
+            color: #ffdf00;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .subsection h3 {
+            color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+        }
     </style>
 </head>
 <body>
@@ -20,53 +67,45 @@
         <p>Email: <a href="mailto:adnan.khan5@cmail.carleton.ca">adnan.khan5@cmail.carleton.ca</a> | LinkedIn: <a href="https://www.linkedin.com/in/adnan-khan-aba952153/" target="_blank">Adnan Khan</a></p>
     </header>
 
-    <section class="section">
-        <h2>About Me</h2>
-        <p>AI and Machine Learning Expert with a strong background in Computer Vision. Possesses excellent analytical skills and the ability to make data-driven decisions in complex AI projects. Skilled in communicating technical concepts and presenting findings in both oral and written forms. Brings a global perspective and a creative approach to problem-solving.</p>
-    </section>
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>AI and Machine Learning Expert with a strong background in Computer Vision. Possesses excellent analytical skills and the ability to make data-driven decisions in complex AI projects. Skilled in communicating technical concepts and presenting findings in both oral and written forms. Brings a global perspective and a creative approach to problem-solving.</p>
+        </section>
 
-    <section class="section">
-        <h2>Experience</h2>
-        <div class="subsection">
-            <h3>Teaching Assistant, Carleton University</h3>
-            <p>Teaching AI and Deep Learning courses. Current position since September 2023.</p>
-        </div>
-        <div class="subsection">
-            <h3>R&D Intern, Yalla Group</h3>
-            <p>Worked on computer vision systems for video translation and animations. June 2023 - July 2023.</p>
-        </div>
-    </section>
+        <section class="section">
+            <h2>Experience</h2>
+            <div class="subsection">
+                <h3>Teaching Assistant, Carleton University</h3>
+                <p>Teaching AI and Deep Learning courses. Current position since September 2023.</p>
+            </div>
+            <div class="subsection">
+                <h3>R&D Intern, Yalla Group</h3>
+                <p>Worked on computer vision systems for video translation and animations. June 2023 - July 2023.</p>
+            </div>
+        </section>
 
-    <section class="section">
-        <h2>Education</h2>
-        <div class="subsection">
-            <h3>PhD in Computer Science, Carleton University</h3>
-            <p>Specializing in Explainable AI. Started August 2023.</p>
-        </div>
-        <div class="subsection">
-            <h3>MSc in Computer Vision, Mohamed Bin Zayed University of Artificial Intelligence</h3>
-            <p>Graduated with a GPA of 3.84. Thesis on Semi-Supervised Domain Generalization for Visual Recognition.</p>
-        </div>
-    </section>
+        <section class="section">
+            <h2>Education</h2>
+            <div class="subsection">
+                <h3>PhD in Computer Science, Carleton University</h3>
+                <p>Specializing in Explainable AI. Started August 2023.</p>
+            </div>
+            <div class="subsection">
+                <h3>MSc in Computer Vision, Mohamed Bin Zayed University of Artificial Intelligence</h3>
+                <p>Graduated with a GPA of 3.84. Thesis on Semi-Supervised Domain Generalization for Visual Recognition.</p>
+            </div>
+        </section>
 
-    <section class="section">
-        <h2>Projects</h2>
-        <div class="subsection">
-            <h3>Object Detection in Satellite Images</h3>
-            <p>Optimized state-of-the-art models for detecting objects in satellite imagery. <a href="https://github.com/Adnan-Khan7/DeiT_ConvNeXt_KnowledgeDistillation" target="_blank">View on GitHub</a></p>
-        </div>
-    </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="subsection">
+                <h3>Object Detection in Satellite Images</h3>
+                <p>Optimized state-of-the-art models for detecting objects in satellite imagery. <a href="https://github.com/Adnan-Khan7/DeiT_ConvNeXt_KnowledgeDistillation" target="_blank">View on GitHub</a></p>
+            </div>
+        </section>
 
-    <section class="section">
-        <h2>Publications</h2>
-        <div class="subsection">
-            <h3>Contrastive Self Supervised Learning: A Survey on Different Architectures</h3>
-            <p>Published in ICAI 2022. <a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Contrastive+Self-Supervised+Learning%3A+A+Survey+on+Different+Architectures&btnG=" target="_blank">Read Paper</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2024 Adnan Khan. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+        <section class="section">
+            <h2>Publications</h2>
+            <div class="subsection">
+                <h3>Contrastive Self Supervised Learning: A Survey on Different Architect
