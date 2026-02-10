@@ -1,87 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adnan Khan — CV</title>
-  <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #0056b3; color: #fff; padding: 20px 0; text-align: center; }
-    header a { color: #ffdf00; text-decoration: none; }
-    .container { width: 80%; margin: 0 auto; padding: 20px; }
-    .section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    h1, h2 { color: #333; }
-    a { color: #0056b3; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .subsection h3 { color: #0056b3; }
-    footer { text-align: center; padding: 20px 0; background: #333; color: white; }
-    ul { padding-left: 20px; }
-    @media (max-width: 768px) { .container { width: 90%; } }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adnan Khan</title>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <header>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
     <h1>Adnan Khan</h1>
-    <p><strong>AI and Machine Learning Researcher</strong></p>
-    <p>Email: <a href="mailto:adnankhan5@cmail.carleton.ca">adnankhan5@cmail.carleton.ca</a> | LinkedIn: <a href="https://www.linkedin.com/in/adnan-khan-aba952153/" target="_blank">Adnan Khan</a></p> 
-    <p>GitHub: <a href="https://github.com/Adnan-Khan7">Adnan-Khan7</a> | Google Scholar: <a href="https://scholar.google.ca/citations?user=Ho7YNT4AAAAJ&hl=en" target="_blank">Adnan Khan</a></p> 
-  </header>
+    <p><strong>PhD Candidate (Computer Science)</strong> · ML / Computer Vision · Accessibility & Healthcare AI</p>
+    <p>
+      Email: <a href="mailto:adnankhan5@cmail.carleton.ca">adnankhan5@cmail.carleton.ca</a> |
+      LinkedIn: <a href="https://www.linkedin.com/in/adnan-khan-aba952153/" target="_blank" rel="noopener">profile</a> |
+      GitHub: <a href="https://github.com/Adnan-Khan7" target="_blank" rel="noopener">Adnan-Khan7</a> |
+      Scholar: <a href="https://scholar.google.ca/citations?user=Ho7YNT4AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    </p>
 
-  <div class="container">
-
-    <section class="section">
-      <h2>About Me</h2>
-      <p>PhD researcher in Computer Science (Carleton University) with a focus on Generative AI for accessibility and healthcare. Experienced teaching assistant and program facilitator. My research spans computer vision, multimodal learning, and knowledge mobilization. I enjoy bridging research and real-world impact, and thrive on cross-cultural collaboration.</p>
-    </section>
-
-    <section class="section">
-      <h2>News & Activities</h2>
-      <ul>
-        <li><strong>Sept 2025:</strong> Started as Teaching Assistant for Introduction to Reinforcement Learning (Carleton University).</li>
-        <li><strong>Aug 2025:</strong> Completed <em>MobilizeU Certification</em> from Research Impact Canada.</li>
-        <li><strong>July 2025:</strong> <em>TactileNet</em> accepted at IEEE SMC 2025, Vienna.</li>
-      </ul>
-    </section>
-
-    <section class="section">
-      <h2>Education</h2>
-      <div class="subsection">
-        <h3>PhD in Computer Science 🇨🇦</h3>
-        <p>Carleton University, Canada<br>
-        Focus: Generative AI & Multimodal Learning<br>
-        <em>2023 – Present</em></p>
-      </div>
-      <div class="subsection">
-        <h3>MSc in Computer Vision 🇦🇪</h3>
-        <p>MBZUAI, UAE — CGPA: 3.84<br>
-        Thesis: Semi-Supervised Domain Generalization for Visual Recognition<br>
-        <em>2021 – 2023</em></p>
-      </div>
-      <div class="subsection">
-        <h3>BSc in Computer Engineering 🇵🇰</h3>
-        <p>COMSATS University Islamabad, Pakistan<br>
-        Thesis: Accident Prevention Framework on Mountainous Roads Blind Spots<br>
-        <em>2016 – 2020</em></p>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Selected Publications</h2>
-      <div class="subsection">
-        <h3>TactileNet: Bridging the Accessibility Gap with AI-Generated Tactile Graphics</h3>
-        <p><strong>IEEE SMC 2025</strong>, Vienna, Austria<br> Adnan Khan, A. Choubineh, M.A. Shaaban, A. Akkasi, M. Komeili</p>
-      </div>
-      <div class="subsection">
-        <h3>MedPromptX: Grounded Multimodal Prompting for Chest X-Ray Diagnosis</h3>
-        <p><strong>MICCAI 2024</strong>, Marrakesh, Morocco<br> M.A. Shaaban, Adnan Khan, M. Yaqub</p>
-      </div>
-      <p><a href="publications.html">See full publication list →</a></p>
-    </section>
-
+    <nav aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="news.html">News</a>
+      <a href="publications.html">Publications</a>
+    </nav>
   </div>
+</header>
 
-  <footer>
-    <p>© 2025 Adnan Khan. All rights reserved.</p>
-  </footer>
+<main id="main">
+  <section class="section">
+    <h2>About</h2>
+    <p>
+      I’m a PhD researcher in Computer Science focused on machine learning, computer vision, and multimodal/LLM methods
+      for accessibility and healthcare. I’m also active in teaching, mentorship, and student-led community initiatives.
+    </p>
+  </section>
+
+  <section class="section" aria-labelledby="latest-news">
+    <h2 id="latest-news">Latest news & activities</h2>
+    <div id="news-list">
+      <p class="muted">Loading…</p>
+      <noscript>
+        <p class="muted">News requires JavaScript. You can view updates on the <a href="news.html">News</a> page.</p>
+      </noscript>
+    </div>
+    <p><a href="news.html">All news →</a></p>
+  </section>
+
+  <section class="section">
+    <h2>Quick links</h2>
+    <ul>
+      <li><a href="cv.html">Full CV</a></li>
+      <li><a href="publications.html">Publications list</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> Adnan Khan.</p>
+</footer>
+
+<script src="assets/site.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  Site.loadJSON("data/news.json")
+    .then(items => Site.renderNews(items, document.getElementById("news-list"), 5))
+    .catch(() => { document.getElementById("news-list").innerHTML = "<p class='muted'>Unable to load news.</p>"; });
+</script>
 </body>
 </html>
