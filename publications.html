@@ -1,67 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Publications — Adnan Khan</title>
-  <style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 20px; background: #f4f4f4; color: #333; }
-    h1 { color: #0056b3; }
-    table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
-    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    th { background: #0056b3; color: white; }
-    tr:nth-child(even) { background: #f9f9f9; }
-    a { color: #0056b3; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <h1>Publications — Adnan Khan</h1>
-  <table>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Conference</th>
-        <th>Year</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Contrastive self-supervised learning: a survey on different architectures<br><em>A Khan, S AlBarri, MA Manzoor</em></td>
-        <td>2nd International Conference on Artificial Intelligence (ICAI), Islamabad, Pakistan </td>
-        <td>2022</td>
-      </tr>
-      <tr>
-        <td>Improving pseudo-labelling and enhancing robustness for semi-supervised domain generalization<br><em>A Khan, MA Shaaban, MH Khan</em></td>
-        <td>19th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications, Rome, Italy</td>
-        <td>2024</td>
-      </tr>
-      <tr>
-        <td>Fine-tuned large language models for symptom recognition from Spanish clinical text<br><em>MA Shaaban, A Akkasi, A Khan, M Komeili, M Yaqub</em></td>
-        <td>Proceedings of the BioCreative VIII Challenge and Workshop: Curation and Evaluation in the Era of Generative Models, AMIA 2023 Annual Symposium, New Orleans, USA</td>
-        <td>2023</td>
-      </tr>
-      <tr>
-        <td>MedPromptX: Grounded multimodal prompting for chest x-ray diagnosis<br><em>MA Shaaban, A Khan, M Yaqub</em><br>MICCAI 2024</td>
-        <td>5</td>
-        <td>2024</td>
-      </tr>
-      <tr>
-        <td>Object detection in aerial images: A case study on performance improvement<br><em>A Khan, MU Khattak, K Dawoud</em><br>ICAIoT 2022</td>
-        <td>3</td>
-        <td>2022</td>
-      </tr>
-      <tr>
-        <td>iML at SemEval-2024 Task 2: Safe Biomedical Natural Language Interference<br><em>A Akkasi, A Khan, MA Shaaban, M Komeili, M Yaqub</em><br>SemEval 2024</td>
-        <td>1</td>
-        <td>2024</td>
-      </tr>
-      <tr>
-        <td>TactileNet: Bridging the Accessibility Gap with AI-Generated Tactile Graphics<br><em>A Khan, A Choubineh, MA Shaaban, A Akkasi, M Komeili</em><br>IEEE SMC 2025</td>
-        <td>—</td>
-        <td>2025</td>
-      </tr>
-    </tbody>
-  </table>
-  <p><a href="index.html">← Back to CV</a></p>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <h1>Publications</h1>
+    <p class="muted">Editable via <code>data/publications.json</code>.</p>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="news.html">News</a>
+      <a href="publications.html" aria-current="page">Publications</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <h2>List</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Venue</th>
+          <th>Year</th>
+        </tr>
+      </thead>
+      <tbody id="pubs-tbody">
+        <tr><td colspan="3" class="muted">Loading…</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <p><a href="index.html">← Back to home</a></p>
+</footer>
+
+<script src="assets/site.js"></script>
+<script>
+  Site.loadJSON("data/publications.json")
+    .then(pubs => Site.renderPublications(pubs, document.getElementById("pubs-tbody")))
+    .catch(() => { document.getElementById("pubs-tbody").innerHTML = "<tr><td colspan='3' class='muted'>Unable to load publications.</td></tr>"; });
+</script>
 </body>
 </html>
