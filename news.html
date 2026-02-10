@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>News — Adnan Khan</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <h1>News & Activities</h1>
+    <p class="muted">Short updates you can edit by changing <code>data/news.json</code>.</p>
+    <nav aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="cv.html">CV</a>
+      <a href="news.html" aria-current="page">News</a>
+      <a href="publications.html">Publications</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section">
+    <h2>Updates</h2>
+    <div id="news-list">
+      <p class="muted">Loading…</p>
+      <noscript><p class="muted">Enable JavaScript to view updates here.</p></noscript>
+    </div>
+
+    <h3>How to add an item</h3>
+    <ol>
+      <li>Open <code>data/news.json</code> on GitHub</li>
+      <li>Click the pencil icon (Edit)</li>
+      <li>Add a new block at the top:
+        <pre><code>{
+  "date": "2026-02-10",
+  "text": "Delivered a workshop on X at Y."
+}</code></pre>
+      </li>
+      <li>Commit changes</li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <p><a href="index.html">← Back to home</a></p>
+</footer>
+
+<script src="assets/site.js"></script>
+<script>
+  Site.loadJSON("data/news.json")
+    .then(items => Site.renderNews(items, document.getElementById("news-list")))
+    .catch(() => { document.getElementById("news-list").innerHTML = "<p class='muted'>Unable to load news.</p>"; });
+</script>
+</body>
+</html>
