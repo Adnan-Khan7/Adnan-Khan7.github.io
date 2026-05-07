@@ -1,4 +1,20 @@
 [
+    {
+    "date": "2026-05-07",
+    "text": "Started a blog on Faith, Reason and Science — honest reflections as a student of both Islam and AI.",
+    "link": "blog.html",
+    "linkText": "Read the blog →"
+  },
+  {
+    "date": "2026-04-20",
+    "text": "New paper on arXiv: TactileEval — a benchmark for evaluating AI-generated tactile graphics.",
+    "link": "https://tactileeval.github.io/",
+    "linkText": "Project page →"
+  },
+  {
+    "date": "2026-04-06",
+    "text": "Officially announced candidacy for GSA Vice-President Academic. Voting takes place April 13-14."
+  },
   {
   "date": "2026-04-06",
   "text": "Officially announced candidacy for GSA Vice-President Academic. Voting takes place April 13-14."

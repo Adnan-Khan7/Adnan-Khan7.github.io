@@ -1,5 +1,12 @@
 [
   {
+  "title": "TactileEval: A Benchmark for Evaluating AI-Generated Tactile Graphics",
+  "authors": "Adnan Khan, A. Akkasi, M. Komeili",
+  "venue": "arXiv (Under Review)",
+  "year": "2026",
+  "url": "https://tactileeval.github.io/"
+},
+  {
     "title": "Generative AI for Tactile Accessibility: A Systematic Literature Review of Emerging Methods and Gaps",
     "authors": "Adnan Khan, A. Akkasi, D. Taratynova, M. Komeili",
     "venue": "Pre-print / Journal Submission",
