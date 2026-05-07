@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Generative AI for Tactile Accessibility: A Systematic Literature Review of Emerging Methods and Gaps",
+    "authors": "Adnan Khan, A. Akkasi, D. Taratynova, M. Komeili",
+    "venue": "Pre-print / Journal Submission",
+    "year": "2026",
+    "url": ""
+  },
+  {
+    "title": "TactileNet: Bridging the Accessibility Gap with AI-Generated Tactile Graphics for Individuals with Vision Impairment",
+    "authors": "Adnan Khan, A. Choubineh, M.A. Shaaban, A. Akkasi, M. Komeili",
+    "venue": "IEEE SMC",
+    "year": "2025",
+    "url": ""
+  },
+  {
+    "title": "Towards Multimodal Retrieval-Augmented Generation for Medical Visual Question Answering",
+    "authors": "M.A. Shaaban, M.R. Zarei, Adnan Khan, A. Akkasi, M. Yaqub, M. Komeili",
+    "venue": "ArXiv / Under Review",
+    "year": "2025",
+    "url": ""
+  },
+  {
+    "title": "Text-Guided Image-to-Image Translation for Tactile Map Generation",
+    "authors": "A. Choubineh, A. Akkasi, Adnan Khan, M. Komeili",
+    "venue": "IJCNN",
+    "year": "2025",
+    "url": ""
+  },
+  {
+    "title": "MedPromptX: Grounded Multimodal Prompting for Chest X-Ray Diagnosis",
+    "authors": "M.A. Shaaban, Adnan Khan, M. Yaqub",
+    "venue": "MICCAI",
+    "year": "2024",
+    "url": ""
+  },
+  {
+    "title": "iML at SemEval-2024 Task 2: Safe Biomedical Natural Language Interference for Clinical Trials with LLM Based Ensemble Inferencing",
+    "authors": "A. Akkasi, Adnan Khan, M.A. Shaaban, M. Komeili, M. Yaqub",
+    "venue": "SemEval-2024",
+    "year": "2024",
+    "url": ""
+  },
+  {
+    "title": "Improving Pseudo-Labelling and Enhancing Robustness for Semi-Supervised Domain Generalization",
+    "authors": "Adnan Khan, M.A. Shaaban, M.H. Khan",
+    "venue": "VISAPP",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2401.13965"
+  },
+  {
+    "title": "Fine-Tuned Large Language Models for Symptom Recognition from Spanish Clinical Text",
+    "authors": "M.A. Shaaban, A. Akkasi, Adnan Khan, M. Komeili, M. Yaqub",
+    "venue": "BioCreative VIII / AMIA",
+    "year": "2023",
+    "url": ""
+  },
+  {
+    "title": "Object Detection in Aerial Images: A Case Study on Performance Improvement",
+    "authors": "Adnan Khan, M.U. Khattak, K. Dawoud",
+    "venue": "ICAIoT",
+    "year": "2022",
+    "url": ""
+  },
+  {
+    "title": "Contrastive Self-Supervised Learning: A Survey on Different Architectures",
+    "authors": "Adnan Khan, S. AlBarri, M.A. Manzoor",
+    "venue": "ICAI",
+    "year": "2022",
+    "url": ""
+  }
+]
