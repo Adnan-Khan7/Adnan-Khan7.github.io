@@ -1,8 +1,8 @@
 [
   {
-  "title": "TactileEval: A Benchmark for Evaluating AI-Generated Tactile Graphics",
+  "title": "TactileEval: A Step Towards Automated Fine-Grained Evaluation and Editing of Tactile Graphics",
   "authors": "Adnan Khan, A. Akkasi, M. Komeili",
-  "venue": "arXiv (Under Review)",
+  "venue": "IEEE SMC",
   "year": "2026",
   "url": "https://tactileeval.github.io/"
 },
@@ -59,7 +59,7 @@
     "title": "Fine-Tuned Large Language Models for Symptom Recognition from Spanish Clinical Text",
     "authors": "M.A. Shaaban, A. Akkasi, Adnan Khan, M. Komeili, M. Yaqub",
     "venue": "BioCreative VIII / AMIA",
-    "year": "2023",
+    "year": "2024",
     "url": ""
   },
   {
