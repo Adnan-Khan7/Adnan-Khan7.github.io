@@ -8,11 +8,14 @@ function formatDateISO(iso) {
   // expects YYYY-MM-DD
   const [y, m, d] = iso.split("-").map(Number);
   const dt = new Date(y, (m - 1), d);
-  return dt.toLocaleDateString(undefined, { year: "numeric", month: "short" });
+  return dt.toLocaleDateString("en-US", { year: "numeric", month: "short" });
 }
 
 function renderNews(items, targetEl, limit = null) {
-  const data = Array.isArray(items) ? items : [];
+  // newest first, regardless of order in the JSON (ISO dates sort as strings)
+  const data = (Array.isArray(items) ? items : [])
+    .slice()
+    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   const shown = limit ? data.slice(0, limit) : data;
 
   const ul = document.createElement("ul");
@@ -43,6 +46,22 @@ function renderNews(items, targetEl, limit = null) {
   targetEl.appendChild(ul);
 }
 
+function highlightSelf(authors) {
+  return (authors || "").replace("Adnan Khan", "<strong>Adnan Khan</strong>");
+}
+
+function pubLinks(p) {
+  return [
+    ["Paper", p.url],
+    ["Project page", p.project],
+    ["Code", p.code],
+    ["Dataset", p.dataset],
+    ["Video", p.video]
+  ].filter(([, href]) => href)
+   .map(([label, href]) => `<a href="${href}" target="_blank" rel="noopener">${label}</a>`)
+   .join(" · ");
+}
+
 function renderPublications(pubs, tbodyEl) {
   const data = Array.isArray(pubs) ? pubs : [];
   tbodyEl.innerHTML = "";
@@ -50,19 +69,11 @@ function renderPublications(pubs, tbodyEl) {
   for (const p of data) {
     const tr = document.createElement("tr");
 
-    const links = [
-      ["Paper", p.url],
-      ["Project page", p.project],
-      ["Code", p.code],
-      ["Dataset", p.dataset],
-      ["Video", p.video]
-    ].filter(([, href]) => href)
-     .map(([label, href]) => `<a href="${href}" target="_blank" rel="noopener">${label}</a>`)
-     .join(" · ");
+    const links = pubLinks(p);
 
     const tdTitle = document.createElement("td");
     tdTitle.innerHTML = `<div><strong>${p.title || ""}</strong></div>
-                         <div class="muted">${p.authors || ""}</div>
+                         <div class="muted">${highlightSelf(p.authors)}</div>
                          ${links ? `<div>${links}</div>` : ""}`;
 
     const tdVenue = document.createElement("td");
@@ -78,4 +89,23 @@ function renderPublications(pubs, tbodyEl) {
   }
 }
 
-window.Site = { loadJSON, renderNews, renderPublications };
+// Compact numbered list for the CV page (also used when printing the CV to PDF)
+function renderPublicationList(pubs, targetEl) {
+  const data = Array.isArray(pubs) ? pubs : [];
+  const ol = document.createElement("ol");
+  ol.className = "pub-list";
+
+  for (const p of data) {
+    const li = document.createElement("li");
+    const links = pubLinks(p);
+    li.innerHTML = `<strong>${p.title || ""}</strong>. ${highlightSelf(p.authors)}.
+                    <em>${p.venue || ""}</em>, ${p.year || ""}.
+                    ${links ? `<span class="pub-links">${links}</span>` : ""}`;
+    ol.appendChild(li);
+  }
+
+  targetEl.innerHTML = "";
+  targetEl.appendChild(ol);
+}
+
+window.Site = { loadJSON, renderNews, renderPublications, renderPublicationList };

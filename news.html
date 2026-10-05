@@ -5,6 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>News — Adnan Khan</title>
   <link rel="stylesheet" href="assets/style.css" />
+  <!-- meta:start -->
+  <meta name="description" content="News and activities from Adnan Khan — papers, talks, teaching, and community work." />
+  <link rel="canonical" href="https://adnan-khan7.github.io/news.html" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Adnan Khan" />
+  <meta property="og:title" content="News — Adnan Khan" />
+  <meta property="og:description" content="News and activities from Adnan Khan — papers, talks, teaching, and community work." />
+  <meta property="og:url" content="https://adnan-khan7.github.io/news.html" />
+  <meta property="og:image" content="https://adnan-khan7.github.io/assets/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- meta:end -->
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -13,6 +28,12 @@
   <div class="wrap">
     <h1>Adnan Khan</h1>
     <p><strong>PhD Candidate (Computer Science)</strong> · ML / Computer Vision · Accessibility &amp; Healthcare AI</p>
+    <p>
+      Email: <a href="mailto:adnankhan5@cmail.carleton.ca">adnankhan5@cmail.carleton.ca</a> · <a href="mailto:adnan.khan194@gmail.com">adnan.khan194@gmail.com</a> |
+      LinkedIn: <a href="https://www.linkedin.com/in/adnan-khan-aba952153/" target="_blank" rel="noopener">profile</a> |
+      GitHub: <a href="https://github.com/Adnan-Khan7" target="_blank" rel="noopener">Adnan-Khan7</a> |
+      Scholar: <a href="https://scholar.google.ca/citations?user=Ho7YNT4AAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar</a>
+    </p>
     <nav aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="cv.html">CV</a>
@@ -35,7 +56,7 @@
 </main>
 
 <footer>
-  <p><a href="index.html">← Back to home</a></p>
+  <p>© <span id="year"></span> Adnan Khan.</p>
 </footer>
 
 <script src="assets/site.js"></script>
@@ -44,5 +65,6 @@
     .then(items => Site.renderNews(items, document.getElementById("news-list")))
     .catch(() => { document.getElementById("news-list").innerHTML = "<p class='muted'>Unable to load news.</p>"; });
 </script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>
