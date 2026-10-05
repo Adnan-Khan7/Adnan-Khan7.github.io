@@ -50,10 +50,20 @@ function renderPublications(pubs, tbodyEl) {
   for (const p of data) {
     const tr = document.createElement("tr");
 
+    const links = [
+      ["Paper", p.url],
+      ["Project page", p.project],
+      ["Code", p.code],
+      ["Dataset", p.dataset],
+      ["Video", p.video]
+    ].filter(([, href]) => href)
+     .map(([label, href]) => `<a href="${href}" target="_blank" rel="noopener">${label}</a>`)
+     .join(" · ");
+
     const tdTitle = document.createElement("td");
     tdTitle.innerHTML = `<div><strong>${p.title || ""}</strong></div>
                          <div class="muted">${p.authors || ""}</div>
-                         ${p.url ? `<div><a href="${p.url}" target="_blank" rel="noopener">Paper / link</a></div>` : ""}`;
+                         ${links ? `<div>${links}</div>` : ""}`;
 
     const tdVenue = document.createElement("td");
     tdVenue.textContent = p.venue || "";

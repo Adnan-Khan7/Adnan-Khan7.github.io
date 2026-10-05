@@ -1,15 +1,19 @@
 [
   {
-  "title": "TactileEval: A Step Towards Automated Fine-Grained Evaluation and Editing of Tactile Graphics",
-  "authors": "Adnan Khan, A. Akkasi, M. Komeili",
-  "venue": "IEEE SMC",
-  "year": "2026",
-  "url": "https://tactileeval.github.io/"
-},
+    "title": "TactileEval: A Step Towards Automated Fine-Grained Evaluation and Editing of Tactile Graphics",
+    "authors": "Adnan Khan, A. Akkasi, M. Komeili",
+    "venue": "IEEE SMC",
+    "year": "2026",
+    "url": "https://arxiv.org/abs/2604.19829",
+    "project": "https://tactileeval.github.io/",
+    "code": "https://github.com/Adnan-Khan7/TactileEval",
+    "dataset": "https://huggingface.co/datasets/Adnank1998/TactileEval",
+    "video": "https://youtu.be/M9miFPg5xoc"
+  },
   {
     "title": "Generative AI for Tactile Accessibility: A Systematic Literature Review of Emerging Methods and Gaps",
     "authors": "Adnan Khan, A. Akkasi, D. Taratynova, M. Komeili",
-    "venue": "Pre-print / Journal Submission",
+    "venue": "Under review — Universal Access in the Information Society (Springer Nature)",
     "year": "2026",
     "url": ""
   },
@@ -18,61 +22,62 @@
     "authors": "Adnan Khan, A. Choubineh, M.A. Shaaban, A. Akkasi, M. Komeili",
     "venue": "IEEE SMC",
     "year": "2025",
-    "url": ""
+    "url": "https://arxiv.org/abs/2504.04722",
+    "video": "https://youtu.be/IfawKYjBezQ"
   },
   {
     "title": "Towards Multimodal Retrieval-Augmented Generation for Medical Visual Question Answering",
     "authors": "M.A. Shaaban, M.R. Zarei, Adnan Khan, A. Akkasi, M. Yaqub, M. Komeili",
-    "venue": "ArXiv / Under Review",
+    "venue": "Preprint (Research Square)",
     "year": "2025",
-    "url": ""
+    "url": "https://doi.org/10.21203/rs.3.rs-7752202/v1"
   },
   {
     "title": "Text-Guided Image-to-Image Translation for Tactile Map Generation",
     "authors": "A. Choubineh, A. Akkasi, Adnan Khan, M. Komeili",
-    "venue": "IJCNN",
+    "venue": "IJCNN (IEEE)",
     "year": "2025",
     "url": ""
   },
   {
     "title": "MedPromptX: Grounded Multimodal Prompting for Chest X-Ray Diagnosis",
     "authors": "M.A. Shaaban, Adnan Khan, M. Yaqub",
-    "venue": "MICCAI",
+    "venue": "MICCAI (Springer)",
     "year": "2024",
-    "url": ""
+    "url": "https://link.springer.com/chapter/10.1007/978-3-031-84525-3_18"
   },
   {
     "title": "iML at SemEval-2024 Task 2: Safe Biomedical Natural Language Interference for Clinical Trials with LLM Based Ensemble Inferencing",
     "authors": "A. Akkasi, Adnan Khan, M.A. Shaaban, M. Komeili, M. Yaqub",
     "venue": "SemEval-2024",
     "year": "2024",
-    "url": ""
+    "url": "https://aclanthology.org/2024.semeval-1.26/"
   },
   {
     "title": "Improving Pseudo-Labelling and Enhancing Robustness for Semi-Supervised Domain Generalization",
     "authors": "Adnan Khan, M.A. Shaaban, M.H. Khan",
-    "venue": "VISAPP",
+    "venue": "VISAPP (VISIGRAPP), Rome",
     "year": "2024",
     "url": "https://arxiv.org/abs/2401.13965"
   },
   {
     "title": "Fine-Tuned Large Language Models for Symptom Recognition from Spanish Clinical Text",
     "authors": "M.A. Shaaban, A. Akkasi, Adnan Khan, M. Komeili, M. Yaqub",
-    "venue": "BioCreative VIII / AMIA",
+    "venue": "BioCreative VIII Workshop @ AMIA 2023",
     "year": "2024",
-    "url": ""
+    "url": "https://arxiv.org/abs/2401.15780"
   },
   {
     "title": "Object Detection in Aerial Images: A Case Study on Performance Improvement",
     "authors": "Adnan Khan, M.U. Khattak, K. Dawoud",
-    "venue": "ICAIoT",
+    "venue": "ICAIoT (IEEE)",
     "year": "2022",
     "url": ""
   },
   {
     "title": "Contrastive Self-Supervised Learning: A Survey on Different Architectures",
     "authors": "Adnan Khan, S. AlBarri, M.A. Manzoor",
-    "venue": "ICAI",
+    "venue": "ICAI (IEEE)",
     "year": "2022",
     "url": ""
   }

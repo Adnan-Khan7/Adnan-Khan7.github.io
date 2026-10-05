@@ -1,9 +1,23 @@
 [
   {
+    "date": "2026-10-05",
+    "text": "Presented TactileEval (virtually) at IEEE SMC 2026, Bellevue, WA, USA.",
+    "link": "https://youtu.be/M9miFPg5xoc",
+    "linkText": "Watch the talk →"
+  },
+  {
+    "date": "2026-09-02",
+    "text": "Teaching Assistant — COMP 4102A Computer Vision (Carleton University)."
+  },
+  {
+    "date": "2026-08-24",
+    "text": "Completed Carleton University's Human Rights Module (Department of Equity and Inclusive Communities)."
+  },
+  {
     "date": "2026-06-01",
     "text": "TactileEval accepted at IEEE SMC 2026."
   },
-    {
+  {
     "date": "2026-05-07",
     "text": "Started a blog on Faith, Reason and Science — honest reflections as a student of both Islam and AI.",
     "link": "blog.html",
@@ -23,13 +37,13 @@
     "date": "2026-01-05",
     "text": "Teaching Assistant — COMP 5801H Generative AI and Large Language Models."
   },
-    {
+  {
     "date": "2025-10-03",
     "text": "Attended IEEE SMC 2025."
   },
   {
     "date": "2025-09-06",
-    "text": "Teaching Assistant — COMP 4090 Introduction to Reinforcement Learning (Carleton University)."
+    "text": "Teaching Assistant — COMP 4010A Introduction to Reinforcement Learning (Carleton University)."
   },
   {
     "date": "2025-08-20",
@@ -39,6 +53,8 @@
   },
   {
     "date": "2025-07-10",
-    "text": "TactileNet accepted at IEEE SMC 2025 (Vienna)."
+    "text": "TactileNet accepted at IEEE SMC 2025 (Vienna).",
+    "link": "https://youtu.be/IfawKYjBezQ",
+    "linkText": "Watch the talk →"
   }
 ]
