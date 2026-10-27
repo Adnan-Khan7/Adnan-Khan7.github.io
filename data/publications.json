@@ -11,11 +11,12 @@
     "video": "https://youtu.be/M9miFPg5xoc"
   },
   {
-    "title": "Generative AI for Tactile Accessibility: A Systematic Literature Review of Emerging Methods and Gaps",
+    "title": "Tactile Accessibility and Generative AI: A Systematic Literature Review of Methods, Evaluation Practices, and Gaps",
     "authors": "Adnan Khan, A. Akkasi, M. Komeili",
     "venue": "Under review — Universal Access in the Information Society (Springer Nature)",
     "year": "2026",
-    "url": ""
+    "url": "",
+    "dataset": "https://github.com/awesome-tactile-graphics/Tactile-Accessibility-and-Generative-AI"
   },
   {
     "title": "TactileNet: Bridging the Accessibility Gap with AI-Generated Tactile Graphics for Individuals with Vision Impairment",
@@ -44,8 +45,8 @@
   {
     "title": "MedPromptX: Grounded Multimodal Prompting for Chest X-Ray Diagnosis",
     "authors": "M.A. Shaaban, Adnan Khan, M. Yaqub",
-    "venue": "MICCAI (Springer)",
-    "year": "2024",
+    "venue": "MICCAI 2024 Workshops (Springer)",
+    "year": "2025",
     "url": "https://link.springer.com/chapter/10.1007/978-3-031-84525-3_18"
   },
   {
@@ -67,7 +68,7 @@
     "title": "Fine-Tuned Large Language Models for Symptom Recognition from Spanish Clinical Text",
     "authors": "M.A. Shaaban, A. Akkasi, Adnan Khan, M. Komeili, M. Yaqub",
     "venue": "BioCreative VIII Workshop @ AMIA 2023",
-    "year": "2024",
+    "year": "2023",
     "url": "https://arxiv.org/abs/2401.15780"
   },
   {
