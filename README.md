@@ -2,7 +2,7 @@
 
 Source code for my personal website: **[adnan-khan7.github.io](https://adnan-khan7.github.io)**
 
-I'm Adnan Khan, a PhD candidate in Computer Science at Carleton University's [Intelligent Machines Lab](https://iml.carleton.ca/) in Ottawa, Canada. I work on generative AI for accessibility, mainly tactile graphics for blind and low-vision readers. The site has my CV, publications, news, a personal essay and a blog.
+I'm Adnan Khan, a PhD candidate in Computer Science at Carleton University's [Intelligent Machines Lab](https://iml.carleton.ca/) in Ottawa, Canada. I work on generative AI for accessibility, mainly tactile graphics for blind and low-vision readers. The site has my CV, publications, news and a blog.
 
 ## What's in this repository
 
@@ -12,7 +12,6 @@ I'm Adnan Khan, a PhD candidate in Computer Science at Carleton University's [In
 | `cv.html` | CV |
 | `publications.html` | Publications, built from `data/publications.json` |
 | `news.html` | News, built from `data/news.json` |
-| `journey.html` | My Journey, a personal essay |
 | `blog.html`, `blog/` | Blog posts |
 | `assets/` | Stylesheet, script and images |
 
