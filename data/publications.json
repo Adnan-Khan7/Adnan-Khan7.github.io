@@ -7,7 +7,7 @@
     "url": "https://arxiv.org/abs/2604.19829",
     "project": "https://tactileeval.github.io/",
     "code": "https://github.com/Adnan-Khan7/TactileEval",
-    "dataset": "https://huggingface.co/datasets/Adnank1998/TactileEval",
+    "dataset": "https://huggingface.co/datasets/GenAI-for-Tactile-Graphics/TactileEval",
     "video": "https://youtu.be/M9miFPg5xoc"
   },
   {
@@ -25,7 +25,7 @@
     "year": "2025",
     "url": "https://ieeexplore.ieee.org/document/11342771",
     "project": "https://tactilenet.github.io/",
-    "dataset": "https://huggingface.co/datasets/MaiAShaaban/TactileNet",
+    "dataset": "https://huggingface.co/datasets/GenAI-for-Tactile-Graphics/TactileNet",
     "video": "https://youtu.be/IfawKYjBezQ"
   },
   {
